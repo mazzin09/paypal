@@ -8,6 +8,7 @@
 </head>
 <body>
     <div class="container">
+    <h1>Branch</h1>
     <form action="{{ route('create-payment') }}" method="post">
     @csrf 
     <input type="submit" value="Pay Now">
